@@ -114,11 +114,26 @@ def run_audit(ticker):
             }
         )
 
+    chairman_prompt = (PROMPTS_DIR / "chairman.md").read_text(encoding="utf-8")
+    verdict = json.loads(
+        call_model(
+            chairman_prompt,
+            json.dumps({
+                "ticker": ticker.upper(),
+                "classification": classification,
+                "stage_results": stage_results,
+                "stages_missing": stages_missing,
+            }),
+            stage_id="chairman",
+        )
+    )
+
     return {
         "ticker": ticker.upper(),
         "classification": classification,
         "stage_results": stage_results,
         "stages_missing": stages_missing,
+        "verdict": verdict,
     }
 
 

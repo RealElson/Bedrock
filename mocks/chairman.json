@@ -1,0 +1,18 @@
+{
+  "verdict": "Watch",
+  "catalyst": "Services margin re-rating as the mix shifts toward advertising and App Store, visible in Services gross margin sustaining above 75% while Products margin compresses under tariff costs",
+  "timeline": "12-18 months",
+  "reasoning": "No disqualifying stage failed. Type B classification means the Stage 2 flag downgrades confidence rather than eliminating: iPhone growth at 4% was attributed by management to higher net sales of Pro models, which is price/mix rather than unit volume, and no true unit volumes are disclosed anywhere in the filing. Stage 6 is unambiguously safe at 0.74x coverage. Stage 13 surfaces the finding that carries the most weight and is not consensus: operating margin expanded from 24.1% to 32.0% since FY2020 while FCF conversion fell from 127.8% to 88.2%, a divergence that the FY2024 Irish State Aid charge partially masks. Headline margin expansion is public and priced in; the cash conversion deterioration underneath it is the part the market is not discussing. Insufficient grounds for Buy without a named valuation gap, and no grounds for Avoid.",
+  "thesis_breakers": [
+    "iPhone unit-driven revenue declines for two consecutive fiscal years while Pro-model mix stops offsetting it",
+    "An adverse ruling in the DOJ antitrust case or the Google search licensing proceedings forces structural changes to Services economics",
+    "FCF conversion falls below 80% for two more years while capex continues rising, confirming the divergence is structural rather than an investment cycle"
+  ],
+  "exit_criteria": "Exit requires both conditions simultaneously: the market pricing a premium unmatched by peer operational metrics, AND no material year-over-year improvement in underlying growth or normalized earning power. A premium alone is not a sell signal. Any realized thesis-breaker above triggers immediate exit review independent of valuation.",
+  "confidence": "Moderate",
+  "stages_missing": [
+    "Stage 2.5 Normalized Earning Power - one-time items are not machine-extractable from XBRL",
+    "Stage 3 Distortion Stripping - Apple does not disclose constant-currency figures or acquisition contribution"
+  ],
+  "human_checks_outstanding": "This verdict is provisional until at least two Stage 1 Primary Source Verification checks are complete: trade journal review of smartphone demand and component pricing, direct outreach to suppliers or channel partners on iPhone sell-through versus sell-in, and macro/demographic verification of upgrade-cycle assumptions in Greater China. Research reasoning, not investment advice."
+}
