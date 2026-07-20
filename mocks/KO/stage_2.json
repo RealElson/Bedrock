@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "volume_verdict": "Price-led growth with flat volume. FY2025 net operating revenue grew 2%, composed of volume +1%, price/mix +4%, foreign currency -2% and acquisitions/divestitures -1%. Worldwide unit case volume was even at 33.8 billion cases against 33.7 billion, and concentrate sales volume grew 1%. Price/mix contributed four times what volume did. Volume is positive so this is not disqualifying under the Type A rule, but the franchise is not physically expanding: North America unit case volume declined 1% and Latin America concentrate volume declined 1%.",
+  "evidence": [
+    {"category": "Consolidated", "driver": "PRICE/MIX-DRIVEN", "management_phrase": "Volume 1% Price/Mix 4% Foreign Currency (2)% Acquisitions & Divestitures (1)% Total 2%"},
+    {"category": "North America", "driver": "PRICE/MIX-DRIVEN", "management_phrase": "Unit case volume in North America decreased 1%"},
+    {"category": "Latin America", "driver": "PRICE/MIX-DRIVEN", "management_phrase": "volume (1) price/mix 11 foreign currency (12)"},
+    {"category": "EMEA", "driver": "VOLUME-DRIVEN", "management_phrase": "Unit case volume in EMEA increased 3%"}
+  ],
+  "data_gaps": [],
+  "confidence": "High",
+  "caveat": ""
+}

@@ -1,0 +1,9 @@
+{
+  "fcf_latest": 5300000000,
+  "fcf_margin": 11.0,
+  "fcf_conversion": 40.4,
+  "trend": "deteriorating",
+  "divergence_flag": true,
+  "interpretation": "Severe and sustained divergence. FCF conversion has fallen from 115.2% in FY2021 to 40.4% in FY2025, with the collapse concentrated in FY2024 (91.0% to 44.6%) and not recovering. Free cash flow more than halved from $11.3B to $5.3B while operating margin held near 28.7% and reported profitability was stable. Less than half of reported net income is becoming cash. The numeric series alone cannot distinguish whether this reflects a deliberate investment cycle, a large non-recurring cash outflow, or accrual-supported earnings - the two-year persistence argues against a single timing effect, but confirming the cause requires reading the cash flow statement and contingencies note directly. Flagged as the most material finding in this audit and referred for human verification.",
+  "confidence": "Moderate"
+}

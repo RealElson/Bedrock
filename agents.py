@@ -18,7 +18,10 @@ def call_model(system_prompt, user_content, stage_id=None):
     if MOCK_MODE:
         if not stage_id:
             raise ValueError("stage_id is required when BEDROCK_MOCK=1")
-        mock_path = MOCKS_DIR / f"{stage_id}.json"
+        ticker = os.environ.get("BEDROCK_TICKER", "AAPL").upper()
+        mock_path = MOCKS_DIR / ticker / f"{stage_id}.json"
+        if not mock_path.exists():
+            mock_path = MOCKS_DIR / f"{stage_id}.json"
         try:
             mock_response = json.loads(mock_path.read_text(encoding="utf-8"))
         except FileNotFoundError as error:
