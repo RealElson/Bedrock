@@ -1,0 +1,6 @@
+{
+  "coverage_ratio": 0.74,
+  "band": "safe",
+  "interpretation": "Gross debt of $98.7B against underlying operating profit of $133.1B gives 0.74x coverage, far below the 3.0x threshold for a predictable business. Term debt of $90.7B is long-dated with $12.4B due within twelve months against $132.4B in cash and marketable securities. Quantified rather than feared: this is not a balance sheet risk.",
+  "passed": true
+}

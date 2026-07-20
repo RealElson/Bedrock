@@ -1,0 +1,9 @@
+{
+  "fcf_latest": 98767000000,
+  "fcf_margin": 23.7,
+  "fcf_conversion": 88.2,
+  "trend": "deteriorating",
+  "divergence_flag": true,
+  "interpretation": "FCF conversion has fallen from 127.8% in FY2020 to 88.2% in FY2025 while operating margin expanded from 24.1% to 32.0% over the same period. FY2024 conversion of 116.1% is distorted upward by the $10.2B Irish State Aid charge suppressing net income; adjusted, the series reads 102.7% to 104.7% to 88.2%, so the FY2025 decline is genuine rather than a base effect. Driven by capex rising 34.6% year over year while operating cash flow fell 5.7%. Growing net income alongside falling cash conversion is the divergence this stage exists to surface.",
+  "confidence": "Moderate"
+}

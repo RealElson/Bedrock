@@ -1,7 +1,7 @@
 ---
 id: 2
 name: Core Volumetric Audit
-requires: [revenue_by_category, category_growth_rates, mdna_text]
+requires: [mdna_text]
 applies_to: [A, B, C, D]
 disqualifying_for: [A, D]
 ---

@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 
 from agents import call_model
-from compute import build_metrics
+from stage_inputs import build_stage_inputs
 
 
 PROMPTS_DIR = Path(__file__).with_name("prompts")
@@ -48,17 +48,8 @@ def load_stages():
 
 
 def _metric_fields(metrics):
-    """Return field names available anywhere in the metrics payload."""
-    fields = set()
-
-    def visit(value):
-        if isinstance(value, dict):
-            for key, nested_value in value.items():
-                fields.add(key)
-                visit(nested_value)
-
-    visit(metrics)
-    return fields
+    """Return field names that are present AND non-None."""
+    return {key for key, value in metrics.items() if value is not None}
 
 
 def _stage_mock_id(stage_id):
@@ -68,7 +59,7 @@ def _stage_mock_id(stage_id):
 
 def run_audit(ticker):
     """Classify *ticker*, run supported stages, and record unavailable stages."""
-    metrics = build_metrics(ticker)
+    metrics = build_stage_inputs(ticker)
     classifier_prompt = (PROMPTS_DIR / "classifier.md").read_text(encoding="utf-8")
     classification = json.loads(
         call_model(
