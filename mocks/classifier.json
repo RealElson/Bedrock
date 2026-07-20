@@ -1,17 +1,9 @@
 {
-  "stage_id": "classifier",
-  "company": {
-    "name": "Apple Inc.",
-    "ticker": "AAPL"
-  },
-  "classification": {
-    "type": "B",
-    "label": "Mature platform business with a durable ecosystem",
-    "confidence": "high"
-  },
-  "rationale": [
-    "Apple combines a large installed base, premium hardware, and a growing recurring-services revenue stream.",
-    "Its economics are driven more by ecosystem retention, brand strength, and capital returns than by early-stage market expansion."
-  ],
-  "next_stage": "stage_2"
+  "sector_type": "B",
+  "justification": "Apple reports category revenue and management commentary, but no underlying volume growth; Products are Type B and Services may be Type C.",
+  "segment_scoped": "whole company",
+  "method": "category driver analysis",
+  "disclosure_gaps": [
+    "Underlying unit volume growth by revenue category"
+  ]
 }

@@ -1,35 +1,26 @@
 {
-  "stage_id": "stage_2",
-  "company": "Apple Inc.",
-  "ticker": "AAPL",
-  "company_type": "B",
-  "assessment": "high_quality_mature_compounder",
-  "business_quality": {
-    "moat": "strong",
-    "moat_sources": [
-      "Integrated hardware, software, services, and distribution ecosystem",
-      "High customer switching costs from device, account, and service integration",
-      "Global brand, developer ecosystem, and scale purchasing advantages"
-    ],
-    "pricing_power": "strong in premium devices; more limited in price-sensitive international markets"
-  },
-  "financial_profile": {
-    "fiscal_year": 2025,
-    "revenue_usd_billions": 416.2,
-    "revenue_growth_percent": 6.4,
-    "operating_margin_percent": 32.0,
-    "free_cash_flow_usd_billions": 98.8,
-    "free_cash_flow_margin_percent": 23.7
-  },
-  "key_drivers": [
-    "Installed-base expansion and upgrade cycles for iPhone and other devices",
-    "Services monetization, including App Store, subscriptions, payments, and cloud offerings",
-    "Continued premiumization and cross-selling across the Apple ecosystem"
+  "passed": true,
+  "volume_verdict": "FY2025 iPhone revenue grew 4% on higher net sales of Pro models, making growth price/mix-driven. Wearables, Home and Accessories declined 4% on lower accessories and wearables sales, while Services grew 14% on advertising, App Store and cloud; both are blended because Apple did not disclose a volume/price split.",
+  "evidence": [
+    {
+      "category": "iPhone",
+      "driver": "PRICE/MIX-DRIVEN",
+      "management_phrase": "higher net sales of Pro models"
+    },
+    {
+      "category": "Wearables, Home and Accessories",
+      "driver": "BLENDED",
+      "management_phrase": "lower accessories and wearables sales"
+    },
+    {
+      "category": "Services",
+      "driver": "BLENDED",
+      "management_phrase": "advertising, App Store and cloud"
+    }
   ],
-  "key_risks": [
-    "iPhone concentration and cyclicality in global consumer-device demand",
-    "Regulatory pressure on App Store economics and default-distribution agreements",
-    "Supply-chain concentration and geopolitical exposure, particularly in Greater China"
+  "data_gaps": [
+    "Apple does not disclose true unit volumes or a quantified volume/price split by category."
   ],
-  "stage_2_conclusion": "Apple fits Type B because it pairs mature-scale growth with exceptional profitability, recurring ecosystem economics, and substantial free-cash-flow generation. The main diligence focus is whether services growth and the installed base can offset hardware-cycle and regulatory pressure."
+  "confidence": "Moderate",
+  "caveat": "This company does not disclose true unit volumes. The volume/price split above is inferred from qualitative management commentary, not verified units. Confidence in this split should be treated as moderate, not high."
 }
