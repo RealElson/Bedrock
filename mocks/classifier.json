@@ -1,0 +1,17 @@
+{
+  "stage_id": "classifier",
+  "company": {
+    "name": "Apple Inc.",
+    "ticker": "AAPL"
+  },
+  "classification": {
+    "type": "B",
+    "label": "Mature platform business with a durable ecosystem",
+    "confidence": "high"
+  },
+  "rationale": [
+    "Apple combines a large installed base, premium hardware, and a growing recurring-services revenue stream.",
+    "Its economics are driven more by ecosystem retention, brand strength, and capital returns than by early-stage market expansion."
+  ],
+  "next_stage": "stage_2"
+}
